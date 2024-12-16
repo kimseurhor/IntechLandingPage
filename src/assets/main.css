@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+  @apply bg-white shadow-md;
+}
+
+header .container {
+  @apply mx-auto px-4 py-8 flex justify-between items-center;
+}
+
+header .logo {
+  @apply h-12 w-12;
+}
+
+header .nav {
+  @apply flex space-x-4;
+}
+
+header .nav a {
+  @apply text-gray-700 hover:text-gray-900;
+}
+
+header button {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}
