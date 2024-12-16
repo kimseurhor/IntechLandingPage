@@ -20,7 +20,7 @@ defineProps({
     <div class="container mx-auto px-4">
         
 
-        <div class="bg-cyan-100 shadow-md rounded-lg p-6">
+        <div class="bg-cyan-200 shadow-md rounded-lg p-6 m-12">
            
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 m-10">
                 <div>

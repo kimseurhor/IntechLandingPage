@@ -3,7 +3,7 @@
 <template>
 <div class="bg-white py-16">
     <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-12">Our Smart Solutions</h2>
+        <h2 class="text-5xl font-bold text-left mb-12 ml-12">Our Smart Solutions</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div class="bg-white shadow-md rounded-lg p-6">

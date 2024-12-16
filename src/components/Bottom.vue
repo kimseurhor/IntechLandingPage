@@ -23,19 +23,19 @@ defineProps({
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-white ml-8">
             <div class="text-center md:text-left">
-                <h1 class="text-2xl leading-normal font-bold">{{ quote }}</h1>
+                <h1 class="text-4xl leading-normal font-bold ml-8 mt-8">{{ quote }}</h1>
             </div>
             <div class="ml-20">
                 <h3 class="text-lg font-bold mb-4 ">Quick Links</h3>
-                <div class="flex flex-col mr-72">
+                <div class="flex flex-col mr-72 space-y-3">
                     <button @click="$emit('scroll-to','heads')" class="hover:underline">Home</button>
                     <button @click="$emit('scroll-to', 'solutions')" class="hover:underline">Products</button>
                     <button @click="$emit('scroll-to', 'mivis')" class="hover:underline">About Us</button>
                     <button @click="$emit('scroll-to','.')" class="hover:underline">Contact</button>
                 </div>
             </div>
-            <div>
-                <h3 class="text-lg font-bold mb-4">Contact Us</h3>
+            <div class="mr-16">
+                <h3 class="text-lg font-bold mb-4 ">Contact Us</h3>
                 <p>{{ location }}</p><br>
                 <p>{{ contact }}</p>
                 <div class="w-full h-auto py-8 flex items-center  gap-2 flex-wrap">

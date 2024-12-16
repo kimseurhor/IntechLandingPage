@@ -22,7 +22,7 @@ defineProps({
 
 <template>
     
-    <div class="bg-gradient-to-tl from-slate-50 to-cyan-100 shadow-md">
+    <div class="bg-gradient-to-tl from-slate-50 to-cyan-200 shadow-md">
     <div class="container mx-auto px-4 py-8 flex justify-between items-center">
         <div class="flex items-center ">
             <img v-bind:src="logo" class="h-20 w-20 absolute left-10 ">
